@@ -4,34 +4,30 @@
     "version": "cb19da87"
   },
   "products": [
-    {"id": "prod-cb19da87-001", "name": "Pro Git Book", "category": "electronics", "price": 2000.00, "stock": 10, "rating": 4.8},
-    {"id": "prod-cb19da87-002", "name": "Clean Code", "category": "electronics", "price": 1500.00, "stock": 12, "rating": 4.7},
-    {"id": "prod-cb19da87-003", "name": "Design Patterns", "category": "electronics", "price": 3000.00, "stock": 8, "rating": 4.9},
-    {"id": "prod-cb19da87-004", "name": "Refactoring", "category": "electronics", "price": 12167.01, "stock": 2, "rating": 4.6},
-
-    {"id": "prod-cb19da87-005", "name": "Wireless Mouse", "category": "books", "price": 799.00, "stock": 50, "rating": 4.3},
-    {"id": "prod-cb19da87-006", "name": "Mechanical Keyboard", "category": "books", "price": 3499.00, "stock": 30, "rating": 4.6},
-    {"id": "prod-cb19da87-007", "name": "USB-C Hub", "category": "books", "price": 1299.00, "stock": 40, "rating": 4.4},
-    {"id": "prod-cb19da87-008", "name": "27in Monitor", "category": "books", "price": 18999.00, "stock": 15, "rating": 4.5},
-
-    {"id": "prod-cb19da87-009", "name": "Noise Cancelling Headphones", "category": "fashion", "price": 8999.00, "stock": 20, "rating": 4.7},
-    {"id": "prod-cb19da87-010", "name": "Running Shoes", "category": "fashion", "price": 2499.00, "stock": 25, "rating": 4.2},
-    {"id": "prod-cb19da87-011", "name": "Denim Jacket", "category": "fashion", "price": 3199.00, "stock": 18, "rating": 4.4},
-    {"id": "prod-cb19da87-012", "name": "Graphic T-Shirt", "category": "fashion", "price": 799.00, "stock": 60, "rating": 4.1},
-
-    {"id": "prod-cb19da87-013", "name": "Baseball Cap", "category": "home", "price": 599.00, "stock": 45, "rating": 4.0},
-    {"id": "prod-cb19da87-014", "name": "Leather Belt", "category": "home", "price": 1299.00, "stock": 35, "rating": 4.3},
-    {"id": "prod-cb19da87-015", "name": "Coffee Maker", "category": "home", "price": 4999.00, "stock": 12, "rating": 4.5},
-    {"id": "prod-cb19da87-016", "name": "Blender", "category": "home", "price": 2499.00, "stock": 20, "rating": 4.2},
-
-    {"id": "prod-cb19da87-017", "name": "Air Fryer", "category": "sports", "price": 6999.00, "stock": 10, "rating": 4.6},
-    {"id": "prod-cb19da87-018", "name": "Vacuum Cleaner", "category": "sports", "price": 8999.00, "stock": 8, "rating": 4.4},
-    {"id": "prod-cb19da87-019", "name": "Desk Lamp", "category": "sports", "price": 1499.00, "stock": 22, "rating": 4.3},
-    {"id": "prod-cb19da87-020", "name": "Yoga Mat", "category": "sports", "price": 999.00, "stock": 40, "rating": 4.1},
-    {"id": "prod-cb19da87-021", "name": "Dumbbell Set", "category": "sports", "price": 2999.00, "stock": 15, "rating": 4.5},
-    {"id": "prod-cb19da87-022", "name": "Football", "category": "sports", "price": 799.00, "stock": 35, "rating": 4.2},
-    {"id": "prod-cb19da87-023", "name": "Cricket Bat", "category": "sports", "price": 3499.00, "stock": 14, "rating": 4.6},
-    {"id": "prod-cb19da87-024", "name": "Skipping Rope", "category": "sports", "price": 399.00, "stock": 55, "rating": 4.0}
+    {"id":"prod-cb19da87-001","name":"Standard Item 1","category":"clothing","price":102.45,"stock":179,"rating":4.4},
+    {"id":"prod-cb19da87-002","name":"Elite Item 2","category":"home","price":60.75,"stock":83,"rating":4.4},
+    {"id":"prod-cb19da87-003","name":"Elite Item 3","category":"clothing","price":289.41,"stock":52,"rating":1.1},
+    {"id":"prod-cb19da87-004","name":"Standard Item 4","category":"electronics","price":412.73,"stock":133,"rating":2.1},
+    {"id":"prod-cb19da87-005","name":"Elite Item 5","category":"books","price":226.8,"stock":108,"rating":2.3},
+    {"id":"prod-cb19da87-006","name":"Pro Item 6","category":"clothing","price":390.19,"stock":9,"rating":2.6},
+    {"id":"prod-cb19da87-007","name":"Elite Item 7","category":"sports","price":369.77,"stock":69,"rating":5},
+    {"id":"prod-cb19da87-008","name":"Basic Item 8","category":"electronics","price":54.19,"stock":97,"rating":1.9},
+    {"id":"prod-cb19da87-009","name":"Standard Item 9","category":"clothing","price":494.34,"stock":149,"rating":3.5},
+    {"id":"prod-cb19da87-010","name":"Standard Item 10","category":"home","price":418.78,"stock":143,"rating":2},
+    {"id":"prod-cb19da87-011","name":"Basic Item 11","category":"clothing","price":192.16,"stock":34,"rating":4.2},
+    {"id":"prod-cb19da87-012","name":"Elite Item 12","category":"sports","price":230.33,"stock":3,"rating":3.5},
+    {"id":"prod-cb19da87-013","name":"Elite Item 13","category":"electronics","price":238.01,"stock":98,"rating":2.1},
+    {"id":"prod-cb19da87-014","name":"Elite Item 14","category":"books","price":199.49,"stock":56,"rating":2.8},
+    {"id":"prod-cb19da87-015","name":"Elite Item 15","category":"clothing","price":418.03,"stock":115,"rating":4.2},
+    {"id":"prod-cb19da87-016","name":"Pro Item 16","category":"clothing","price":351.43,"stock":103,"rating":2.9},
+    {"id":"prod-cb19da87-017","name":"Standard Item 17","category":"sports","price":283.7,"stock":169,"rating":1.9},
+    {"id":"prod-cb19da87-018","name":"Pro Item 18","category":"books","price":287.94,"stock":149,"rating":1.1},
+    {"id":"prod-cb19da87-019","name":"Pro Item 19","category":"sports","price":180.7,"stock":37,"rating":4.1},
+    {"id":"prod-cb19da87-020","name":"Basic Item 20","category":"clothing","price":28.86,"stock":87,"rating":4.2},
+    {"id":"prod-cb19da87-021","name":"Basic Item 21","category":"books","price":121.33,"stock":64,"rating":1.5},
+    {"id":"prod-cb19da87-022","name":"Elite Item 22","category":"sports","price":218.25,"stock":63,"rating":3.7},
+    {"id":"prod-cb19da87-023","name":"Pro Item 23","category":"sports","price":461.99,"stock":151,"rating":2.3},
+    {"id":"prod-cb19da87-024","name":"Pro Item 24","category":"electronics","price":368.08,"stock":128,"rating":4.8}
   ],
   "aggregations": {
     "books": {
