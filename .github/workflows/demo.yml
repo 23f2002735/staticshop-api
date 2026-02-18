@@ -1,0 +1,14 @@
+name: Demo Action
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: 23f2002735@ds.study.iitm.ac.in
+        run: echo "Hello from GitHub Actions"
