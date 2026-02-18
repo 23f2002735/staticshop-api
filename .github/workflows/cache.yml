@@ -1,0 +1,29 @@
+name: Cache Demo
+
+on:
+  push:
+
+jobs:
+  cache-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Cache dependencies
+        id: cache-deps
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache-demo
+          key: cache-f6a2218
+
+      - name: prime-cache-f6a2218
+        run: |
+          if [ "${{ steps.cache-deps.outputs.cache-hit }}" = "true" ]; then
+            echo "Cache HIT"
+          else
+            echo "Cache MISS"
+            mkdir -p ~/.cache-demo
+            echo "cached data" > ~/.cache-demo/data.txt
+          fi
