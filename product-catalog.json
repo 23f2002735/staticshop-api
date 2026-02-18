@@ -32,7 +32,7 @@
   "aggregations": {
     "books": {
       "count": 4,
-      "inventoryValue": 86234.02
+      "inventoryValue": 86334.01999999999
     },
     "electronics": {
       "count": 4,
